@@ -38,17 +38,14 @@ h2 {width: auto;
 }
 
 a:active {
-    /*this made all links purple when active before being clicked*/
-    color: rgb(20, 14, 64);
+    color: red;
 }
 
 a:visited {
-    /*This made all links black after being clicked*/
     color: black;
 }
 
 a:hover {
-    /*This makes all links when hovered have brown font, beige background around it and the font size larger */
     color: darkmagenta;
     background-color: lightgrey;
 }
