@@ -1,10 +1,25 @@
 body {
     background: lightgray;
-    
+
 }
 
 
-.onion, .bunny, .cma {
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: darkmagenta;
+    background-color: lightgrey;
+}
+
+.onion,
+.bunny,
+.cma {
     width: 150px;
     float: left;
     margin: 20px;
@@ -27,68 +42,90 @@ header {
 }
 
 footer {
-     background-color: lightpink;
+    background-color: lightpink;
     padding: 5px;
     border-style: double;
-    border-color: black;  
-    clear: both; 
+    border-color: black;
+    clear: both;
 }
 
-h2 {width: auto;
+h2 {
+    width: auto;
 }
 
-a:active {
-    color: red;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: darkmagenta;
-    background-color: lightgrey;
-}
 
 @media (min-width: 576px) {
-    body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-    header, footer {
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    header,
+    footer {
         background-color: lightskyblue;
         border-style: dotted;
         border-color: black;
     }
-    .onion, .bunny, .cma {width: 250px;
+
+    .onion,
+    .bunny,
+    .cma {
+        width: 250px;
         border-style: dotted;
     }
-    A:hover {font-size: 125%;}
+
+    A:hover {
+        font-size: 125%;
+    }
 }
 
 
 
 @media (min-width: 720px) {
-    body {font-family: Georgia, 'Times New Roman', Times, serif;}
-    header, footer {
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    header,
+    footer {
         background-color: lightgoldenrodyellow;
         border-style: dashed;
         border-color: black;
     }
-        .onion, .bunny, .cma {width: 350px;
-            border-style: dashed;
+
+    .onion,
+    .bunny,
+    .cma {
+        width: 350px;
+        border-style: dashed;
     }
-     A:hover {font-size: 125%;}
+
+    A:hover {
+        font-size: 125%;
+    }
 }
 
 
 
 @media (min-width: 992px) {
-    body {font-family: Arial, Helvetica, sans-serif;}
-    header, footer {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header,
+    footer {
         background-color: violet;
         border-style: solid;
         border-color: black;
     }
-        .onion, .bunny, .cma {width: 450px;
-            border-style: solid;
+
+    .onion,
+    .bunny,
+    .cma {
+        width: 450px;
+        border-style: solid;
     }
-     A:hover {font-size: 150%;}
+
+    A:hover {
+        font-size: 150%;
+    }
 }
