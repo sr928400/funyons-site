@@ -39,7 +39,7 @@ h2 {width: auto;
 
 a:active {
     /*this made all links purple when active before being clicked*/
-    color: darkblue;
+    color: darkslateblue;
 }
 
 a:visited {
